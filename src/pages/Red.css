@@ -1,0 +1,12 @@
+  .red-page {
+    height: 100vh;
+    background-color: red;
+  }
+  .red-title {
+    color: floralwhite;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: floralwhite;
+  }

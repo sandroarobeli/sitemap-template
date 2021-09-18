@@ -1,0 +1,12 @@
+.violet-page {
+    height: 100vh;
+    background-color: violet;
+  }
+  .violet-title {
+    color: blue;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: blue;
+  }

@@ -1,0 +1,12 @@
+.yellow-page {
+    height: 100vh;
+    background-color: yellow;
+  }
+  .yellow-title {
+    color: red;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: red;
+  }

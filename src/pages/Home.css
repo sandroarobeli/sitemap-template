@@ -1,0 +1,45 @@
+  .home-page {
+    height: 100vh;
+  }
+  .home-title {
+   padding: .5rem;
+  }
+  .red {
+    background-color: red;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: floralwhite;
+  }
+  .orange {
+    background-color: orange;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: white;
+  }
+  .yellow {
+    background-color:yellow;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: red;
+  }
+  .green {
+    background-color: green;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: white;
+  }
+  .blue {
+    background-color: aqua;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: red;
+  }
+  .violet {
+    background-color: violet;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: blue;
+  }
+  .link {
+    text-decoration: none;
+  }

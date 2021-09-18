@@ -1,0 +1,12 @@
+.orange-page {
+    height: 100vh;
+    background-color: orange;
+  }
+  .orange-title {
+    color: white;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+  }

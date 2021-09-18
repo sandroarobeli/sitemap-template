@@ -1,0 +1,12 @@
+.blue-page {
+    height: 100vh;
+    background-color: aqua;
+  }
+  .blue-title {
+    color: red;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: red;
+  }

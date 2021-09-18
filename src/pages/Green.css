@@ -1,0 +1,12 @@
+.green-page {
+    height: 100vh;
+    background-color:  green;
+  }
+  .green-title {
+    color: white;
+    padding: 1rem;
+  }
+  .link {
+    text-decoration: none;
+    color: white
+  }
