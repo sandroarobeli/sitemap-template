@@ -25,6 +25,9 @@ const Home = () => {
             <Link to='/violet' className='link'>
                 <div className='violet'>VIOLET</div>
             </Link>
+            <Link to='/users/:userId' className='link'>
+                <div className='user'>USERS</div>
+            </Link>
         </div>
     )
 }

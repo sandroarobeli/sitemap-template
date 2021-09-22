@@ -8,4 +8,6 @@
 <url> <loc>http://127.0.0.1/green</loc> </url>
 <url> <loc>http://127.0.0.1/blue</loc> </url>
 <url> <loc>http://127.0.0.1/violet</loc> </url>
+<url> <loc>http://127.0.0.1/users/:userId</loc> </url>
+<url> <loc>http://127.0.0.1/</loc> </url>
 </urlset>

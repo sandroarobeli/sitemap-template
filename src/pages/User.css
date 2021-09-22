@@ -1,0 +1,12 @@
+.user-page {
+    height: 100vh;
+    background-color: navy;
+}
+.user-title {
+    color: lightgoldenrodyellow;
+    padding: 1rem;
+}
+.link {
+    text-decoration: none;
+    color:aqua;
+}

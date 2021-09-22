@@ -40,6 +40,12 @@
     margin: .25rem auto;
     color: blue;
   }
+  .user {
+    background-color: navy;
+    padding: 1.5rem;
+    margin: .25rem auto;
+    color: aqua;
+  }
   .link {
     text-decoration: none;
   }
