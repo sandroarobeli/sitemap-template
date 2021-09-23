@@ -1,0 +1,29 @@
+.sitemap {
+    height: 100vh;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sitemap-title {
+    width: 80%;
+    font-size: 2rem;
+    background-color: slategrey;
+    background-image: linear-gradient(black, slategrey);
+    color: white;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    top: 3rem;
+}
+.sitemap-list {
+    width: 80%;
+    color: slategrey;
+    margin: 6rem auto;
+}
+li {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+.item {
+    color: dodgerblue;
+    font-weight: 600;
+}

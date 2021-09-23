@@ -1,0 +1,12 @@
+.about-page {
+    height: 100vh;
+    background-color: aqua;
+}
+.about-title {
+    color: red;
+    padding: 1rem;
+}
+.link {
+    text-decoration: none;
+    color: red;
+  }

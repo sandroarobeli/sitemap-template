@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+# IMPORTANT NOTES BELOW:
+# Theoretically, you could disallow a page, but it could still end up in the index.
+# That’s why you need the Noindex directive. It works with the disallow so bots don’t visit or index certain pages
+# Disallow: /Misc/
+# Noindex: /Misc/
+# Same end goal, different format <a href=”http://www.website.com/” rel=”nofollow”>Link Text</a>
+User-agent: *
+Disallow:
+
+Sitemap: http://localhost/sitemap.xml
+#Sitemap: http://www.example.com/sitemap.xml

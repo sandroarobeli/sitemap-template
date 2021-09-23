@@ -9,5 +9,8 @@
 <url> <loc>http://127.0.0.1/blue</loc> </url>
 <url> <loc>http://127.0.0.1/violet</loc> </url>
 <url> <loc>http://127.0.0.1/users/:userId</loc> </url>
+<url> <loc>http://127.0.0.1/about</loc> </url>
+<url> <loc>http://127.0.0.1/contact</loc> </url>
+<url> <loc>http://127.0.0.1/sitemap</loc> </url>
 <url> <loc>http://127.0.0.1/</loc> </url>
 </urlset>

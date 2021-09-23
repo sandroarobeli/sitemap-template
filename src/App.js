@@ -12,13 +12,20 @@ import Green from './pages/Green'
 import Blue from './pages/Blue.jsx'
 import Violet from './pages/Violet.jsx'
 import User from './pages/User.jsx'
+import Footer from './pages/Footer'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import Sitemap from './pages/Sitemap.jsx'
 import './App.css';
 
 const App = () => {
   return (
     <div className="app">
-      <h1>Sitemap Blueprint</h1>
       <Router>
+        <header>
+            <h1>Sitemap Blueprint</h1>
+        </header>
+        <main>
             <Switch>
                 <Route path='/' exact>
                     <Home />
@@ -44,9 +51,20 @@ const App = () => {
                 <Route path='/users/:userId' exact>
                     <User />
                 </Route>
+                <Route path='/about' exact>
+                  <About />
+                </Route>
+                <Route path='/contact' exact>
+                  <Contact />
+                </Route>
+                <Route path='/sitemap' exact>
+                  <Sitemap />
+                </Route>
                 <Redirect to='/' />
-            </Switch>
-        </Router>
+              </Switch>
+            </main>
+            <Footer />
+      </Router>
     </div>
   );
 }

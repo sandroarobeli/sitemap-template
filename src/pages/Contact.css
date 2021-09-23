@@ -1,0 +1,20 @@
+.contact-page {
+    height: 100vh;
+    background-color: aqua;
+}
+.contact-page__methods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-title {
+    color: red;
+    padding: 1rem;
+}
+.link {
+    text-decoration: none;
+    color: red;
+}
+a {
+    text-decoration: none;
+}

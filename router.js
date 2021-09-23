@@ -6,15 +6,18 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 export default (
     <Switch>
-     <Route path="/" />
-     <Route path="/red" />
-     <Route path="/orange" />
-     <Route path='/yellow' />
-     <Route path='/green' />
-     <Route path='/blue' />
-     <Route path='/violet' />
-     <Route path='/users/:userId' />
-     <Redirect to='/' />
+        <Route path="/" />
+        <Route path="/red" />
+        <Route path="/orange" />
+        <Route path='/yellow' />
+        <Route path='/green' />
+        <Route path='/blue' />
+        <Route path='/violet' />
+        <Route path='/users/:userId' />
+        <Route path='/about' />
+        <Route path='/contact' />
+        <Route path='/sitemap' />
+        <Redirect to='/' />
     </Switch>
    )
 
